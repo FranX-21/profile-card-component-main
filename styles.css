@@ -1,0 +1,143 @@
+@font-face{
+    font-family:"KumbhSans";
+    src: url("fonts/KumbhSans-Bold.ttf");
+}
+
+@font-face{
+    font-family: "KumbhSans2";
+    src: url("fonts/KumbhSans-Light.ttf");
+}
+
+@font-face{
+    font-family: "KumbhSans3";
+    src: url("fonts/KumbhSans-Regular.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    width: auto;
+    height: auto;
+    background: #19a1ad;
+    overflow: hidden;   
+}
+
+.circulo-top{
+    position: absolute;
+    z-index: 1;
+    transform: translate(-46px, -1055px);
+}
+
+.circulo-bottom{
+    position: absolute;
+    z-index: 1;
+    transform: translate(938px, -165px);
+}
+
+.card{
+    z-index: 2;
+    width: 350px;
+    height: 375px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 3.8%;
+    margin: 265px auto 0px auto;
+    background-color: #ffffff;
+}
+
+.victor{
+    position: absolute;
+    border: 5px solid #f8ffff;
+    border-radius: 60%;
+    right: 125px;
+    top: 86px
+}
+
+p{
+    display: block;
+    text-align: center;
+    font-size: 18px;
+}
+
+.head{
+    font-family: "KumbhSans";
+    color: #3e3d4b;
+    margin: 75px 0px 15px 0px;   
+}
+
+.font{
+    font-family: "KumbhSans3";
+    color: #767680;
+    margin-left: 5px;
+}
+
+.lon{
+    font-family: "KumbhSans2";
+    font-size: 14px;
+    color: #737277;
+    margin-bottom: 25px;
+}
+
+hr{
+    border: 0.5px solid #e7e7e7;
+}
+
+.estadis{
+    font-family: "KumbhSans";
+    color: #3e3d4b;
+    display: inline-block;
+    margin-left: 46.5px;
+    margin-top: 24px;
+}
+
+.stadis{
+    font-family: "KumbhSans2";
+    color: #808183;
+    letter-spacing: 1.5px;
+    font-size: 10px;
+}
+
+
+.attribution{
+     font-size: 11px; 
+     text-align: center;
+     color: white;
+     font-size: 12px;
+     margin-top: 60px;
+}
+.attribution a{
+    font-size: 12px; 
+    color: red;
+}
+
+@media all and (max-width: 1440px){
+
+    .circulo-top{
+        transform: translate(-275px, -1065px);
+    }
+
+    .circulo-bottom{
+        transform: translate(690px, -165px);
+    }
+
+    .card{
+        margin: 175px auto 0px auto;
+    }
+
+}
+
+@media all and (max-width: 375px){
+    
+    .circulo-top{
+        transform: translate(-813px, -1005px);
+    }
+        
+    .circulo-bottom{
+        transform: translate(105px, -196px);
+    }
+
+}
